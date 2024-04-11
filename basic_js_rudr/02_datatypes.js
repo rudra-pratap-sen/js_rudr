@@ -10,3 +10,35 @@ let big = undefined // udefined
 // there is also non-primitive datatype like Object
 
 console.log(typeof null); // null is object in datatypes which is a flaw in the language
+
+// Primitive Datatypes (Call by value)
+
+// 7 types :- Number , Null , Boolean , BigInt , String , Symbol , Undefined
+
+/* Non Primitive datatypes 
+Array
+Object
+Functions
+*/
+
+// Javascript dynamically typed 
+
+const Id = Symbol("123")
+const anotherId = Symbol("123")
+
+console.log(Id === anotherId)  // false 
+const bigNumber = 123456789987654321n // n at the last converts into BigInt
+
+// ******************ARRAYS*************
+
+const heroes = ["Invincible" , "Omni Man" , "Superman" , "Batman"] 
+
+// *****************Key Value Pairs****************
+
+const villains = {
+    name: Billgax,
+    comic: Ben10,
+}
+
+// ****************Functions********************
+
