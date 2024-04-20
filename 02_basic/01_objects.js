@@ -1,6 +1,6 @@
 // ********OBJECTS********
 
-// singleton // Objetc.create
+// singleton // Object.create
 
 // object literals
 

@@ -1,5 +1,5 @@
 // console.log("Rudra")
-const accountId = 471832; // constant
+const accountId = 471832; // constant // block scoped
 let accountEmail = "lenovo@lenovo.com"; // variable new // block scoped
 var accountPassword = "123456"; // variable // not use at all
 accountCity = "Kharagpur" // variable // bilkul achcha nahi
