@@ -8,7 +8,7 @@ const dcHeroes = ["Superman","Batman","Flash","AquaMan"]
 
 // const allHeroes = marvelHeroes.concat(dcHeroes) // this way creates new array
 
-// *********Preffered way of adding arrays*********
+// *********Preffered way of adding arrays (SPREADING)*********
 
 const all_heroes = [...marvelHeroes,...dcHeroes] // can add multiple arrays // called spreading // newer technique
 
@@ -20,12 +20,12 @@ const arr2A = arr2.flat(Infinity) // argument in the () is called depth
 
 // console.log(arr2A);
 
-console.log(Array.isArray("Rudra")); // returns false bcs not an array
-console.log(Array.from("Hitesh")); // returns an array of characters in Hitesh
-console.log(Array.from({Name: "Pratap"})); // returns empty array [] // important for interview
+// console.log(Array.isArray("Rudra")); // returns false bcs not an array
+// console.log(Array.from("Hitesh")); // returns an array of characters in Hitesh
+// console.log(Array.from({Name: "Pratap"})); // returns empty array [] // important for interview
 
 let s1 = 100
 let s2 = 200
 let s3 = 300
 
-console.log(Array.of(s1,s2,s3));
+// console.log(Array.of(s1,s2,s3));
