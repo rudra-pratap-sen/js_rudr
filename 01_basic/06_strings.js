@@ -1,11 +1,11 @@
-const name = "Rudra"
-const heightInInch = 6
+const username = "Rudra"
+const heightInFeet = 6
 
 // console.log(name + heightInInch +  "Value") // This a bad way now
 
-// The better way is
+// The better way is (STRING Interpolation)
 
-console.log(`Hello my name is ${name} and my height is ${heightInInch} inch`); // allows operation in curly braces
+console.log(`Hello my name is ${username} and my height is ${heightInFeet} feet`); // allows operation in curly braces
 
 // alternate way of declaring 
 
@@ -30,6 +30,8 @@ console.log(url.replace('%20','-'));
 
 const name2 = "Rudra-Pratap-Sen"
 console.log(name2.includes('Natu'));
-console.log(name2.split('-'));
+const name3 = name2.split('-') 
+console.log(typeof name3) // returns object
+console.log(name3);
 
 
