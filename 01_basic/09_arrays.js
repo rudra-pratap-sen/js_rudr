@@ -1,6 +1,7 @@
 // ************ARRAY*************
 
-const myArr = ["Rudra",23,true,null,undefined] // can have different data types
+const myArr1 = ["Rudra",23,true,null,undefined] // can have different data types
+// console.log(typeof myArr1);
 
 const myArr2 = new Array("Omni Man","Superman","Invncible")
 
@@ -19,19 +20,20 @@ const nums = [0,1,2,3,4,5]
 // console.log(nums.indexOf(2)); // gives position of 2 in array
 
 const newNums = nums.join() // joins the array and change data type to string
+// console.log(typeof newNums);
 
 // slice and Splice
 
-console.log("A" , nums);
+// console.log("A" , nums);
 
 const nums1 = nums.slice(1,3)
 
-console.log(nums1);
+// console.log(nums1);
 
-console.log("B" , nums);
+// console.log("B" , nums);
 
 const nums2 = nums.splice(1,3)
 
-console.log(nums2);
+// console.log(nums2);
 
-console.log("C", nums)
+// console.log("C", nums)
